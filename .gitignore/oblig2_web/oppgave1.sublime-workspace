@@ -1,0 +1,325 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"aar",
+				"artall"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"del",
+				"del3"
+			],
+			[
+				"delt",
+				"delt2"
+			],
+			[
+				"fo",
+				"for"
+			],
+			[
+				"b",
+				"backgroundChange"
+			],
+			[
+				"cha",
+				"changeColor〔function〕"
+			],
+			[
+				"bac",
+				"backgroundColor"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"doc",
+				"document〔variable〕"
+			],
+			[
+				"tx",
+				"txtSpodom2"
+			],
+			[
+				"de",
+				"del3"
+			],
+			[
+				"for",
+				"forlengs"
+			],
+			[
+				"btnD",
+				"btnDel3"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"txt",
+				"txtResultat"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"spo",
+				"spodom2〔variable〕"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"last_filter": "err",
+		"selected_items":
+		[
+			[
+				"err",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"all err",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"control",
+				"Package Control: Install Package"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"c",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Enable Package"
+			],
+			[
+				"colors",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 544.0
+	},
+	"console":
+	{
+		"height": 172.0,
+		"history":
+		[
+			"git clone https://github.com/Colorsublime/Colorsublime-Plugin.git",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/xxpia/Downloads/font-awesome-4.7.0/css/font-awesome.css",
+		"/Users/xxpia/Documents/oblig2/oppgave1.html",
+		"/Users/xxpia/Documents/oblig2/oppgave7_tall.html",
+		"/Users/xxpia/Documents/oblig2/prog/oppgave6_kopier.html",
+		"/Users/xxpia/Documents/oblig2/prog/oppgave4_tid.html",
+		"/Users/xxpia/Documents/oblig2/prog/oppgave5_spå.html",
+		"/Users/xxpia/Documents/oblig2/prog/oppgave123_brukerskjema.html",
+		"/Users/xxpia/Documents/java/2knapp.html",
+		"/Users/xxpia/Documents/java/input.html",
+		"/Users/xxpia/Documents/java/knapp.html",
+		"/Users/xxpia/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/xxpia/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/xxpia/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/xxpia/Documents/oblig2/prog/natt.css",
+		"/Users/xxpia/Documents/oblig2/prog/morgen.css",
+		"/Users/xxpia/Documents/oblig2/prog/kveld.css",
+		"/Users/xxpia/Documents/oblig2/prog/ettermiddag.css",
+		"/Users/xxpia/Documents/oblig2/ettermiddag.css",
+		"/Users/xxpia/Documents/oblig2/kveld.css",
+		"/Users/xxpia/Documents/oblig2/natt.css",
+		"/Users/xxpia/Documents/oblig2/morgen.css",
+		"/Users/xxpia/Documents/oblig2/night.css",
+		"/Users/xxpia/Documents/oblig2/prog/test_tid2.html",
+		"/Users/xxpia/Documents/oblig2/prog/test_tid.html",
+		"/Users/xxpia/Documents/oblig2/web/oppgave1.html",
+		"/Users/xxpia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/xxpia/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 56.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "oppgave1.sublime-project",
+	"replace":
+	{
+		"height": 108.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

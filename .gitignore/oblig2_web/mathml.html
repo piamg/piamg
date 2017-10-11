@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MathML</title>
+	<link rel="stylesheet" href="artikkelside.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		
+	<div class="header">MathML</div>
+		
+	<div class="main">
+	<article>
+	<section>
+		<h1>Hva er MathML?</h1>
+		<p>MathML står for <strong>Mathematical Markup Language</strong> og er brukt for å strukturere og/eller presentere matematiske uttrykk.<br><br>
+
+		Ved hjelp av vanlig HTML5 kan man få til enkle uttrykk som involverer ekspotenter og indekser ved å bruke elementer som < sub > (x<sub>2</sub>) og < sup > (x<sup>2</sup>).<br><br>
+
+		Dette gir derimot veldig lite spillerom når det kommer til å formulere matematiske uttrykk.<br><br>
+
+		MathML gjør det derfor mulig for oss å endre matematiske uttrykk direkte på siden, istedet for å være avhengig av eksterne editorer som "Equation Editor" i Open Office som genererer MathML-kode.</p>
+	</section>
+
+	<section>
+		<h2>Fordeler og ulemper</h2>
+		<p>En av fordelene ved å bruke MathML fremfor å sette inn et bilde er at søkemotorer kan plukke opp de matematiske uttrykkene. I tillegg kan man endre matematikken direkte på siden.<br><br>
+
+		Fordi meningen med ligningen er adskilt fra selve presentasjonen kan innholdet ogdå formidles til brukere gjennom forskjellige metoder. Dette vil si at, for eksempel, synshemmede kan få ligningen lest opp ved bruk av skjermlesere.
+
+		Ulempene derimot er at ikke alle nettlesere støtter MathMl. I tillegg kan det være relativt vanskelig og tungvint å bruke i starten.</p>
+	</section>
+
+	<section>
+		<h2>MathML forklart</h2>
+		<p>For å bruke MathML-utvidelsen må du plassere math-taggen innenfor body, deretter bruke de riktige elementene og attributtene for å få ønsket resultat.<br><br>
+
+		For å lettere forstå MathML derimot kan vi dele det opp i to deler: (1) presentasjon og (2)innhold.</p>
+	</section>
+
+	<section>
+		<h3>Presentasjon</h3>
+		<p>Presentasjons-delen av MathML fokuserer på visningen av matematikken. Det er omkring 30 forskjellige elementer, hvor alle begynner med m.<br><br>
+
+		Uttrykkene er bygget opp av tokens som kombineres med høyere nivåelementer, som styrer layouten; i tillegg er det omkring 50 attributter som hovedsakelig kontrollerer finere detaljer.<br><br>
+
+		Token-elementer inneholder stortsett kun tegn (ikke andre elementer). For eksempel:</p>
+
+			<table>
+				<tr>
+					<th>Element</th>
+					<th>Innhold</th>
+				</tr>
+				<tr>
+					<td>Identifikatorer</td>
+					<td><i>&lt;mi&gt; x &lt;mi&gt;</i></td>
+				</tr>
+				<tr>
+					<td>Operatører</td>
+					<td><i>&lt;mo&gt; + &lt;mo&gt;</i></td>
+				</tr>
+				<tr>
+					<td>Tall</td>
+					<td><i>&lt;mn&gt; 3 &lt;/mn&gt;</i></td>
+				</tr>
+				<tr>
+					<td>Tekst</td>
+					<td><i>&lt;mtext&gt; ingenting &lt;/mtext&gt;</i></td>
+				</tr>
+			</table>
+
+		<p>På den andre siden har vi layoutelementer som vanligvis <em>kun</em> inneholder andre elementer. For eksempel:</p>
+			<table>
+				<tr>
+					<th>Element</th>
+					<th>Innhold</th>
+				</tr>
+				<tr>
+					<td>En horisonal rekke med elementer</td>
+					<td><i>&lt;mrow&gt;</i></td>
+				</tr>
+				<tr>
+					<td>Fraksjoner</td>
+					<td><i>&lt;mfrac&gt;</i></td>
+				</tr>
+				<tr>
+					<td>Røtter</td>
+					<td><i>&lt;mroot&gt;</i></td>
+				</tr>
+				<tr>
+					<td>Omgivende innhold med "gjerder", for eksempel paranteser</td>
+					<td><i>&lt;mfenced&gt;</i></td>
+				</tr>
+			</table>
+
+		<p>Så klart er det mye mer til presentasjons-delen av MathML, men dette er bare en liten itroduksjon for å skjønne det grunnleggende.</p>
+	</section>
+
+	<section>
+		<h3>Innhold</h3>
+		<p>Innholds-delen av MathML fokuserer på semantikken (betydningen) av utrykkene fremfor utformingen. Sentralt for innholdet i MathML er elementet <i>&lt;apply</i> som representerer funksjonsprogrammet.<br><br>
+
+		I motsetning til utformningen er det over hundre forskjellige elemeter for funksjoner og operatører. Dette gir så klart større spillerom, men også større frustrasjons-rom.<br><br>
+		
+		For eksempel kode-biten:<br>
+
+		<i>&lt;apply&gt;&lt;sin/&gt;&lt;ci&gt;x&lt;/ci&gt;&lt;/apply&gt;</i> <br><br>
+
+		representerer sin(x). Elementene som representerer operatører og funksjoner er tomme elementer fordi operatorer er de andre elementene som <i>apply</i> inneholder.<br>
+
+		<img src="math.png" alt="mathml code" style="width:200px;float:left;margin:1.5em;">
+
+		<br><br>Til venstre kan du se kode-biten som er plassert i HTML-dokumentet.<br><br>
+
+		<i>
+			<math>
+			    <apply>
+			        <plus/>
+			        <apply>
+			            <times/>
+			            <ci>a</ci>
+			            <apply>
+			                <power/>
+			                <ci>x</ci>
+			                <cn>2</cn>
+			            </apply>
+			        </apply>
+			        <apply>
+			            <times/>
+			            <ci>b</ci>
+			            <ci>x</ci>
+			        </apply>
+			        <ci>c</ci>
+			    </apply>
+			</math>
+		</i>
+		
+		<br><br>Som med mye annen kode innenfor html må man skrive relativt mye kode for å frem relativt lite resultat, men med trening blir alt lettere.
+	</p>
+	</section>
+	</article>
+	</div>
+
+	<div class="aside">
+		<nav>
+			<ul>
+				<li><a href="forside.html">Hjem</a></li>
+				<li><a class="active" href="mathml.html">MathML</a></li>
+				<li><a href="#">SVG</a></li>
+				<li><a href="#">GitHub</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="footer">&copy;Pia Glückstad</div>
+	</div>
+</body>
+</html>
